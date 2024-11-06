@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask
-from . import db
+#from . import db
 
 app = Flask(__name__)
 
@@ -15,12 +15,12 @@ try:
 except OSError:
     pass
 
-db.init_app(app)
+#db.init_app(app)
 
 
 @app.route('/')
 def hello_world():  # put application's code here
-    return "Hello Tour de App!"
+    return "Turek je chlapeček"
 
 
 if __name__ == '__main__':
