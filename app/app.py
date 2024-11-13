@@ -20,7 +20,7 @@ except OSError:
 
 @app.route('/')
 def hello_world():  # put application's code here
-    return "Turek je chlapeček"
+    return "Hello TdA"
 
 
 if __name__ == '__main__':
