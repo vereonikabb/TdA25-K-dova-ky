@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask
+from flask import Flask, jsonify
 #from . import db
 
 app = Flask(__name__)
@@ -22,6 +22,11 @@ except OSError:
 def hello_world():  # put application's code here
     return "Hello TdA"
 
+@app.route('/api')  # **Nová route pro API**
+def api():  # **Nová funkce pro API**
+    return jsonify({"organization": "Student Cyber Games"})  # **Vracení JSON objektu**
+
 
 if __name__ == '__main__':
     app.run()
+
