@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(246,2469,246);
+}
+h1 {
+  font-family:monospace;
+  color:rgb(246,2469,246);
+  background-color:rgb(57,90,154);
+  font-size:200%;
+  text-align:left;
+}
+h2 {
+  font-family:fantasy;
+  color:rgb(0,112,187);
+  text-align:center;
+}
+p {
+  font-family:cursive;
+  color:rgb(26,26,26);
+  text-align:center;
+}
